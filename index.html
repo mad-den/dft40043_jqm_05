@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="warna.css">
+    <link rel="stylesheet" href="jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="warna.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <form>
+            <input id="filter-for-listview" data-type="search" placeholder="Type to search...">
+    </form>
+    <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+            <li><a href="#">Acura</a></li>
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">Cadillac</a></li>
+            <li><a href="#">Ferrari</a></li>
+    </ul>
+
+    <form>
+            <label for="textinput-s">Text Input:</label>
+            <input type="text" name="textinput-s" id="textinput-s" placeholder="Text input" value=""
+            data-clear-btn="true">
+            <label for="select-native-s">Select:</label>
+            <select name="select-native-s" id="select-native-s">
+                    <option value="small">One</option>
+                    <option value="medium">Two</option>
+                    <option value="large">Three</option>
+                </select>
+            <label for="slider-s">Input slider:</label>
+            <input type="range" name="slider-s" id="slider-s" value="25" min="0" max="100" data-highlight="true">
+    </form>
+
+    <table >
+                <tbody>
+                        <tr>
+                                <th>1</th>
+                                <td><a href="https://en.wikipedia.org/wiki/Citizen_Kane" data-rel="external">Citizen
+                        Kane</a></td>
+                                <td>1941</td>
+                                <td>100%</td>
+                                <td>74</td>
+                            </tr>
+                        <tr>
+                                <th>2</th>
+                                <td><a href="https://en.wikipedia.org/wiki/Casablanca_(film)"
+                        data-rel="external">Casablanca</a></td>
+                                <td>1942</td>
+                                <td>97%</td>
+                                <td>64</td>
+                            </tr>
+                        <tr>
+                                <th>3</th>
+                                <td><a href="https://en.wikipedia.org/wiki/The_Godfather" data-rel="external">The
+                        Godfather</a></td>
+                                <td>1972</td>
+                                <td>97%</td>
+                                <td>87</td>
+                            </tr>
+                    </tbody>
+            </table>
+</body>
+
+</html>
